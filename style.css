@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+  --cor-titulo:#101828;
+  --cor-tilulo-logo: #3A404E;
+  --cinza-primario:#667085;
+  --vermelho-principal:#8E2424;
+  --branco: #FFFFFF;
+  --fundo-span: #F5DAD2;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";  
+}
+
+.logo-titulo{
+  font-size: 18px;
+  color: var(--cor-tilulo-logo);
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  padding:0 2em;
+}
+
+.container{
+  display:flex;
+  padding: 1em;
+  align-items: center;
+  margin: 0 1em;
+  gap: 1em;
+}
+
+.lista-menu{
+  display: flex;
+  list-style: none;
+  margin: 0 10em 0;
+  gap: 1em;
+}
+
+.lista-menu__item{
+  display: flex;
+}
+
+.lista-menu__link{
+  display: flex;
+  text-decoration: none;
+  color: var(--cinza-primario);
+  font-size: 16px;
+}
+
+.container__link__primario{
+  color: var(--cinza-primario);
+  text-decoration: none;
+}
+
+.container__link__secudario{
+  color: var(--branco);
+  background-color: var(--vermelho-principal);
+  padding: 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 112px;
+  text-align: center;
+}
+
+.container_sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 10em;
+  margin: 6em 1em;
+}
+
+.sobre-nos{
+  color: var(--vermelho-principal);
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.titulo-pricipal{
+  color: var(--cor-titulo);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.descricao-principal{
+  color: var(--cinza-primario);
+  font-size: 20px;
+}
+
+.descricao-container{
+  display: flex;
+  margin:2.3em 24em ;
+}
+
+.metricas-container{
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 280px 280px 280px 280px;
+  padding: 56px;
+  width: 75%;
+  margin: 0 13%;
+  gap: 32px;
+}
+
+.valor__metrica{
+  font-size: 60px;
+  color: var(--vermelho-principal);
+  font-weight: 700;
+}
+
+.titulo__metrica{
+  font-size: 18px;
+  color: var(--cor-titulo);
+  font-weight: 700;
+}
+
+.descricao__metrica{
+  font-size: 16px;
+  color: var(--cinza-primario)
+}
+
+.procurando-vagas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.span__vagas{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: var(--vermelho-principal);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.titulo__vagas{
+  color: var(--cor-titulo);
+  font-size: 36px;
+  font-weight: 700;
+  background-color: var(--branco);
+}
+
+.descricao__vagas{
+  color: var(--cinza-primario);
+  font-size: 20px;
+}
+
+.img__container{
+  margin: 2em 15em;
+}
