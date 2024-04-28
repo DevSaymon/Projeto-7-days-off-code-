@@ -5,6 +5,7 @@
   --cinza-primario:#667085;
   --vermelho-principal:#8E2424;
   --branco: #FFFFFF;
+  --fundo-span: #F5DAD2;
 }
 
 
@@ -125,3 +126,39 @@
   font-size: 16px;
   color: var(--cinza-primario)
 }
+
+.procurando-vagas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.span__vagas{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: var(--vermelho-principal);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.titulo__vagas{
+  color: var(--cor-titulo);
+  font-size: 36px;
+  font-weight: 700;
+  background-color: var(--branco);
+}
+
+.descricao__vagas{
+  color: var(--cinza-primario);
+  font-size: 20px;
+}
+
+.img__container{
+  margin: 2em 15em;
+}
+
+
