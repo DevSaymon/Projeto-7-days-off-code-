@@ -6,8 +6,11 @@
   --vermelho-principal:#8E2424;
   --branco: #FFFFFF;
   --fundo-span: #F5DAD2;
+  --border:#D0D5DD;
 }
-
+.body{
+  box-sizing: border-box;
+}
 
 *{
   margin: 0;
@@ -159,4 +162,140 @@
 
 .img__container{
   margin: 2em 15em;
+}
+.vagas{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container__titulo{
+  font-size: 20px;
+  color: var(--cor-titulo);
+  font-weight: 600;
+}
+
+.container_vagas{
+  margin: 0 25%;
+}
+
+.titulo_container{
+  font-size: 20px;
+  font-weight: 700;
+}
+.vagas{
+  margin: 3em 1em;
+}
+.titulo-vaga{
+  font-size: 18px;
+  color: var(--cor-titulo);
+  font-weight: 600;
+}
+
+.informações{
+  display: flex;
+  margin: 2em 0;
+  gap: 2em;
+}
+
+.span_container{
+  color: var(--cinza-primario);
+  font-size: 18px;
+}
+
+.vagas2{
+  margin: 3em 0;
+}
+
+.container__perfil{
+  margin: 7em 0 0 0;
+  text-align: center;
+}
+.container__perfil-items{
+  display: flex;
+  flex-direction: column;
+  margin: 1em 23em;
+  gap: 1em 0;
+  
+}
+.sobre-empresa{
+  color: var(--vermelho-principal);
+  font-size: 15px;
+  font-weight: 600;
+}
+.titulo__container-perfil{
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--cor-titulo);
+}
+
+.descricao__perfil{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em 0;
+}
+.nome__perfil{
+  color: var(--cor-titulo);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.paragrafo__perfil{
+  color: var(--cinza-primario);
+}
+
+
+.newsletter{
+  margin: 10em 0 0 0;
+  text-align: center;
+}
+
+.itens__newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 1em 0;
+  margin: 0 0 2em 0;
+}
+
+.titulo__newsletter{
+  font-size: 36px;
+  color: var(--cor-titulo);
+  font-weight: 600;
+}
+
+.paragrafo__newsletter{
+  color: var(--cinza-primario);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input__email{
+  background: transparent;
+  border: var(--branco);
+  width: 25em;
+  padding: 1em;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+}
+.input__email::placeholder{
+  font-size: 15px;
+}
+
+.botao__newsletter{
+  background-color: var(--vermelho-principal);
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.7em 1.2em;
+}
+
+.rodape{
+  text-align: center;
+  margin: 10em 0 0 0;
+}
+
+.descricao__rodape{
+  font-size: 20x;
+  font-weight: 500;
+  color:var(--cinza-primario)
 }
